@@ -24,10 +24,15 @@ Background: movies have been added to database
 
 Scenario: restrict to movies with 'PG' or 'R' ratings
   # enter step(s) to check the 'PG' and 'R' checkboxes
+  #todo
   # enter step(s) to uncheck all other checkboxes
+  #todo
   # enter step to "submit" the search form on the homepage
+  #todo
   # enter step(s) to ensure that PG and R movies are visible
+  #todo
   # enter step(s) to ensure that other movies are not visible
-
+  #todo
+  
 Scenario: all ratings selected
   # see assignment
