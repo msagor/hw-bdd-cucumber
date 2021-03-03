@@ -6,7 +6,6 @@ Given /the following movies exist/ do |movies_table|
     # you should arrange to add that movie to the database here.
     Movie.create!(movie)
   end
-  #fail "Unimplemented" #todo
 end
 
 Then /(.*) seed movies should exist/ do | n_seeds |
@@ -20,7 +19,6 @@ Then /I should see "(.*)" before "(.*)"/ do |e1, e2|
   #  ensure that that e1 occurs before e2.
   #  page.body is the entire content of the page as a string.
   page.body.should =~ /#{e1}.*#{e2}/m
-  #fail "Unimplemented" #todo
 end
 
 # Make it easier to express checking or unchecking several boxes at once
@@ -38,7 +36,6 @@ When /I (un)?check the following ratings: (.*)/ do |uncheck, rating_list|
       step "I uncheck \"ratings_#{rating}\""
     end
   end
-  #fail "Unimplemented" #todo
 end
 
 Then /I should see all the movies/ do
@@ -47,5 +44,4 @@ Then /I should see all the movies/ do
     title = row[:title]
     step "I should see \"#{title}\""
   end
-  #fail "Unimplemented" #todo
 end
