@@ -33,8 +33,8 @@ Scenario: restrict to movies with 'PG' or 'R' ratings
   Then I should see "PG"
   And I should see "R"
   # enter step(s) to ensure that other movies are not visible
-  And I should not see /^G$/
-  And I should not see /^PG-13$/
+  And I should not see " G "    
+  And I should not see " PG-13 " 
 
 Scenario: all ratings selected
   # see assignment
